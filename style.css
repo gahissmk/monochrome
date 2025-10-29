@@ -1,9 +1,41 @@
-.section1 { background-image: url(asset/bg-image-hero.png);}
+body { font-family: rubik, sans-serif;
+    
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+h1 {
+    font-family: 'Rubik', sans-serif; /* police d'écriture */
+    }
 
-.blanco {
-    color: white; 
+.blue {
+    color: blue; 
 }
 
+.red {
+    color: red; 
+}
+    
+.section1 { background-image: url(asset/bg-image-hero.png); /* image de fond */
+    height: 70vh; /* indique une hauteur de 70% de la hauteur de mon ecran */
+background-position: center; /* centre l'image de fond */
+background-repeat: no-repeat; /* empêche la répétition de l'image */
+background-size: cover; /* l'image a une dimension qui "couvre" l'intégralité de sont parent */
+background-position: center; /* centre l'image de fond */
 
+}
 
+.blanco {
+    color: white; /* couleur blanche pour le texte */
+}
 
+.suppr-puce {
+    list-style-type: none;  /* Supprimer les puces des listes */
+}
+
+a {
+    text-decoration: none; /* retirer le soulignement des liens */
+    color: #000;  /* couleur noire pour les liens */
+}
+
+.large33 {
+    width: 33%; /* largeur de 33% */
+}
+}
